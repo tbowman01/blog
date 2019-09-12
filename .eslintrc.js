@@ -1,5 +1,7 @@
 // http://eslint.org/docs/user-guide/configuring
+/*eslint camelcase: "error"*/
 
+import { no_camelcased as camelCased } from "external-module";
 module.exports = {
   root: true,
   parser: 'babel-eslint',
@@ -28,6 +30,8 @@ module.exports = {
     'object-property-newline': 0,
     'new-cap': 0,
     'no-eval': 0,
-    'semi': 0
+    'semi': 0,
+    // allow underscore in variables underscore
+    
   }
 }
