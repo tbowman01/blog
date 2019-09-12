@@ -3,10 +3,10 @@ export default {
     return {
       path: `/object/${id}`,
       resolve: (response, mappers) => {
-        let { title, content, Created_at, metadata } = response.object
+        let { title, content, created_at, metadata } = response.object
         let meta = {
           description: metadata.description,
-          published: Created_at,
+          published: created_at,
           author: metadata.author.title
         }
         return mappers.merge({ title, content, ...meta })
