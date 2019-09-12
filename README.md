@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0194eb4d-6894-48d3-82a6-f39cadce27fe/deploy-status)](https://app.netlify.com/sites/clever-yonath-9762c9/deploys)
+
 # Vue.js Blog Template Powered by Cosmic JS
 
 A simple Vue.js template for creating a fast, beautiful blog on Netlify powerd by the [Cosmic JS Headless CMS](https://cosmicjs.com) for content editing.
