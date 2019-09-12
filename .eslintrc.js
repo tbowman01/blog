@@ -1,7 +1,7 @@
 // http://eslint.org/docs/user-guide/configuring
 /*eslint camelcase: "error"*/
 
-import { no_camelcased as camelCased } from "external-module";
+//import { no_camelcased as camelCased } from "external-module";
 module.exports = {
   root: true,
   parser: 'babel-eslint',
