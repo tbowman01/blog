@@ -6,7 +6,7 @@ export default {
         let { title, content, Created_at, metadata } = response.object
         let meta = {
           description: metadata.description,
-          published: created_at,
+          published: Created_at,
           author: metadata.author.title
         }
         return mappers.merge({ title, content, ...meta })
