@@ -42,14 +42,14 @@ module.exports = {
 //------------------------------------------------------------------------------
 
 //module.exports = {
-    meta: {
+  /*  meta: {
         type: "suggestion",
         docs: {
             description: "enforce camelcase naming convention",
             category: "Stylistic Issues",
             recommended: false,
             url: "https://eslint.org/docs/rules/camelcase"
-        },
+        },  */
         schema: [
             {
                 type: "object",
