@@ -30,7 +30,7 @@ module.exports = {
     'no-eval': 0,
     'semi': 0,
     // warn camelcase
-    'Camelcase' : 0,
+    'Camelcase' : 2,
     indent: "error"
   }
 }
