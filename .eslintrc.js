@@ -29,6 +29,8 @@ module.exports = {
     'new-cap': 0,
     'no-eval': 0,
     'semi': 0,
-    'Camelcase' : 0
+    // warn camelcase
+    'Camelcase' : 1,
+    indent: "error"
   }
 }
