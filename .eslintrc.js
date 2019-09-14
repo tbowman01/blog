@@ -29,6 +29,6 @@ module.exports = {
     'new-cap': 0,
     'no-eval': 0,
     'semi': 0,
-    'Camelcase' : "off"
+    'Camelcase' : 0
   }
 }
